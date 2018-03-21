@@ -1,11 +1,11 @@
 //Contributors
 //Garrett Poppe 3/19/18
-//
+//Erick Cabanban 3/21/18
 //
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <unistd.h>
 
 void main(void)
 {
@@ -212,9 +212,24 @@ void main(void)
 			{
 					while(choice != 99)
 					{
-							puts("you open the door and find ........");
-							scanf("%d",&choice);
+				
+						int i;
+						int j;
+
+						printf("You open the door and take a step...\n");
+
+						for(i = 0; i < 3; i++)
+						{
+							sleep(4);
+							for(j = 0; j < 5; j++)
+							{
+								printf("......................\n");
+							}
+							printf("YOU FELL INTO A BOTTOMLESS PIT...\n");
+						}
+						break;
 					}
+
 					break;
 			}
 			case 22:
