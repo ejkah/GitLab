@@ -210,6 +210,7 @@ void main(void)
 			}
 			case 21:
 			{
+					int decision = 0;
 					while(choice != 99)
 					{
 				
@@ -226,7 +227,26 @@ void main(void)
 								printf("......................\n");
 							}
 							printf("YOU FELL INTO A BOTTOMLESS PIT...\n");
+						
+	
 						}
+						printf("As you are falling you see a branch and a man sized hole on the wall. Which one do you grab on too?\n");
+						printf("1. Branch\n");
+						printf("2. Hole\n");
+						scanf("%d", &decision);
+
+						if(decision == 1)
+						{
+							printf("You grab onto the branch but it breaks and you continue falling...\n");
+						}
+						else if(decision == 2)
+						{
+							printf("You grab onto the hole, but due to the speed at which you were falling you physically cannot grab on to it and continue falling...\n\n");
+						}
+						else
+						{
+
+						}	
 						break;
 					}
 
