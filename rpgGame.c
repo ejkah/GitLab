@@ -245,7 +245,7 @@ void main(void)
 						}
 						else
 						{
-
+							printf("You chose to do neither, and continue to keep falling...\n");
 						}	
 						break;
 					}
