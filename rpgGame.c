@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include <math.h>
+//#include <math.h>
 #include <unistd.h>
-#include <string.h>
+//#include <string.h>
 #include <time.h>
 
 #define CORRECTCODE 1775
@@ -11,7 +11,7 @@
 // function prompts
 
 
-void main(void)
+case 21:
 {
 	//int choice = 0;
 	//puts("What door do you choose?");
