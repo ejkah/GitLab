@@ -1,3 +1,5 @@
+//Erick Cabanban 4/9/18
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
