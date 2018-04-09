@@ -1,21 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include <math.h>
 #include <unistd.h>
-#include <string.h>
 #include <time.h>
 
 #define CORRECTCODE 1775
 
-// function prompts
 
-
-int main(int argc, char *argv[])
+void main(void)
 {
-	int choice = 0;
-	puts("What door do you choose?");
-	scanf("%d", &choice);
 
 	while(choice != 99)
 	{
